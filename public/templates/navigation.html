@@ -1,0 +1,11 @@
+<nav>
+	<ul>
+		<li ng-repeat="menuItem in menuStructure">
+			<a href="{{menuItem.link}}">
+				{{menuItem.name}}
+			</a>
+		</li>
+	</ul>
+</nav>
+<div class="menu-tab" ng-click="toggleMenu()" ng-mouseover="teaseMenu()" ng-mouseleave="unteaseMenu()">
+</div>

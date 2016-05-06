@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="chrysApp">
+<head>
+	<title>Chrys Lee Creations</title>
+	<link rel="stylesheet" href="styles/bootstrap.min.css" />
+	<link rel="stylesheet" href="styles/base.css" />
+	<link rel="stylesheet" href="styles/navigation.css" />
+
+	<!--
+		If you are seeing this, you must be interested in code quality.
+		Let me explain my decisions.
+		I chose to use AngularJS for my JS framework because I am planning to implement a CMS to maintain this website.
+		The main dynamic parts of this site will be the menu and skills sections.
+
+		For the CSS processing, I went with SASS for it's more intuitive logic statements and the "slick"-ness of the compiler.
+	-->
+</head>
+<body>
+
+	<div id="content">
+		<section id="hero">
+			<image src="/images/hero.jpg" class="full" />
+			<h3 class="title">
+				Hello. Welcome to Chrys Lee Creations.
+			</h3>
+		</section>
+		<section>
+			<image src="/images/salt_flats.jpg" class="full" />
+		</section>
+		<section>
+			<image src="/images/red_rock_sunrise.jpg" class="full" />
+		</section>
+	</div>
+
+	<navigation></navigation>
+
+	<script type="text/javascript" src="scripts/libs/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="scripts/libs/angular.min.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
+	<script type="text/javascript" src="scripts/directives/navigation.js"></script>
+	<script type="text/javascript" src="scripts/scroller.js"></script>
+</body>
+</html>

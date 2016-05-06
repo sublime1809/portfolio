@@ -1,0 +1,34 @@
+.primary-color {
+  background-color: blue;
+  color: #FFF; }
+
+body {
+  position: relative;
+  top: 0; }
+  body #content {
+    position: absolute;
+    top: 0; }
+
+img.full {
+  height: 100vh;
+  width: 100vw; }
+
+#hero {
+  height: 100vh;
+  width: 100vw;
+  z-index: -1; }
+  #hero img {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    opacity: .5; }
+  #hero h3 {
+    color: #333;
+    text-align: center;
+    top: 50vh;
+    position: relative;
+    margin: 0;
+    padding: 0; }
+
+/*# sourceMappingURL=base.css.map */

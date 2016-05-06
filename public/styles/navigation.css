@@ -1,0 +1,38 @@
+.primary-color {
+  background-color: blue;
+  color: #FFF; }
+
+navigation ul {
+  list-style-type: none; }
+  navigation ul li {
+    text-align: right; }
+navigation nav {
+  float: left;
+  background-color: #00E5FF;
+  height: 100vh;
+  position: fixed;
+  width: 150px;
+  left: -150px;
+  transition: left 1s ease-out; }
+navigation div.menu-tab {
+  position: absolute;
+  left: 0px;
+  top: 48vh;
+  font-size: 30px;
+  background-color: #E1B2FF;
+  border-radius: 0 5px 5px 0;
+  transition: left 1s ease-out; }
+navigation div.menu-tab::before {
+  content: '\203A'; }
+navigation.hovered nav {
+  left: -140px; }
+navigation.hovered div.menu-tab {
+  left: 10px; }
+navigation.expanded nav {
+  left: 0px; }
+navigation.expanded div.menu-tab {
+  left: 150px; }
+navigation.expanded div.menu-tab::before {
+  content: '\2039'; }
+
+/*# sourceMappingURL=navigation.css.map */
